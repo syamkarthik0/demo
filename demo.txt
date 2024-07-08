@@ -7,7 +7,8 @@ git commit -m "first commit"
 git remote -v
 git remote set-url origin https://<username>:<token>@git repourl without https://
 
-git branch          // shows the list of branches
-git branch demo1    // adds a branch 
-git checkout demo1  // change the branch
-git merge demo1     // merge with main branch
+git branch                   // shows the list of branches
+git branch demo1             // adds a branch 
+git checkout demo1           // change the branch
+git merge demo1              // merge with main branch
+git branch -d branch_name    //delete the branch
