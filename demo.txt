@@ -11,4 +11,12 @@ git branch                   // shows the list of branches
 git branch demo1             // adds a branch 
 git checkout demo1           // change the branch
 git merge demo1              // merge with main branch
-git branch -d branch_name    //delete the branch
+git branch -d branch_name    //delete the branchq 
+
+#existing file to intialize into github
+git init
+git remote add origin repourl
+//if already exists     git remote set-url  origin repourl
+git add .
+git push -u origin main(branch name)
+git commit -m "first commit"
