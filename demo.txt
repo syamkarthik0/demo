@@ -1,3 +1,4 @@
+#adding repo to local 
 git clone repourl
 
 git add .
@@ -20,3 +21,14 @@ git remote add origin repourl
 git add .
 git push -u origin main(branch name)
 git commit -m "first commit"
+
+
+#To merge a repository into a forked repository
+1.open the fork repository
+git remote add merge-repo repourl(not the fork repo)
+git fetch merge-repo
+git checkout main
+git merge --allow-unrelated-histories merge-repo/main
+git commit -m "Merged changes from original repository"
+git push fork main
+git push -u origin main
