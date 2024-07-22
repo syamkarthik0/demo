@@ -40,5 +40,5 @@ Scanner sc = new Scanner(System.in);
 #Default constructor 
     public Person {
 }
-    person p = new Person("",0); // Initial values 
+    person p = new Person("",0,""); // Initial values 
 
