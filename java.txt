@@ -42,3 +42,9 @@ Scanner sc = new Scanner(System.in);
 }
     person p = new Person("",0,""); // Initial values 
 
+
+ #Arrays
+int a[]={1,2,3,40};
+for(i=0;i<a.length;i++){   //print all of the values
+    sos(a[i]);
+}
