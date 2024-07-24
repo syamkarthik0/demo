@@ -32,3 +32,9 @@ git merge --allow-unrelated-histories merge-repo/main
 git commit -m "Merged changes from original repository"
 git push fork main
 git push -u origin main
+
+
+#Tags
+git tag  //shows the list of Tags
+git tag v1.0.0    //create a tag(checkpoint) like a save file
+git reset --hard v1.0.0   //reverts to tag of v1.0.0
