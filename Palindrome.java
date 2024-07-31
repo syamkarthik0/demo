@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class demo7{
+public class Palindrome{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();

@@ -1,5 +1,3 @@
-
-
 int a; //declaration
 a=10; //initialization
 
@@ -8,7 +6,7 @@ datatype variablename=value;
 
 float=123f; //indicate f 
 
-
+char =sc.new().charAt(0);
 
 public class Person {
     public String firstName;
