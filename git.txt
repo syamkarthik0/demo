@@ -38,3 +38,7 @@ git push -u origin main
 git tag  //shows the list of Tags
 git tag v1.0.0    //create a tag(checkpoint) like a save file
 git reset --hard v1.0.0   //reverts to tag of v1.0.0
+
+git status (shows the branch and commit)
+git log --oneline (display the list of commits)
+git revert commitid

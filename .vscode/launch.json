@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Armstrong",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "PerfectNumber",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "demo2",
+            "request": "launch",
+            "mainClass": "demo2",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "demo3",
+            "request": "launch",
+            "mainClass": "demo3",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "demo5",
+            "request": "launch",
+            "mainClass": "demo5",
+            "projectName": "demo_8f596cff"
+        },
+        {
+            "type": "java",
+            "name": "demo6",
+            "request": "launch",
+            "mainClass": "demo6",
+            "projectName": "demo_8f596cff"
+        }
+    ]
+}
