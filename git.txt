@@ -42,11 +42,15 @@ git reset --hard v1.0.0   //reverts to tag of v1.0.0
 git status (shows the branch and commit)
 git log --oneline (display the list of commits)
 <<<<<<< HEAD
+<<<<<<< HEAD
 git revert commitid
 
 histories
 
 vsv
+=======
+git revert commitid
+>>>>>>> parent of 9d2c4df (first)
 =======
 git revert commitid
 >>>>>>> parent of 9d2c4df (first)
