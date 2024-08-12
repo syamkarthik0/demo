@@ -45,7 +45,8 @@ git revert commitid
 
 #git pull remote branch
 git git clone repourl
-git remote add upstream repourl(Main repo not Forked repo)
+git remote add upstream repourl(Main repo not Forked repo) **use origin or upstream**
 git fetch upstream
 git checkout -b branch-name upstream/branch-name
-git push -u origin branch-name
+git push -u origin branch-name (if access is denied,use this line)
+git remote set-url upstream repourl(forked repo) 
