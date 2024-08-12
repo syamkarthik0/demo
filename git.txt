@@ -42,3 +42,10 @@ git reset --hard v1.0.0   //reverts to tag of v1.0.0
 git status (shows the branch and commit)
 git log --oneline (display the list of commits)
 git revert commitid
+
+#git pull remote branch
+git git clone repourl
+git remote add upstream repourl(Main repo not Forked repo)
+git fetch upstream
+git checkout -b branch-name upstream/branch-name
+git push -u origin branch-name
