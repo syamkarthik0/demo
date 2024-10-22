@@ -50,3 +50,6 @@ git fetch upstream
 git checkout -b branch-name upstream/branch-name
 git push -u origin branch-name (if access is denied,use this line)
 git remote set-url upstream repourl(forked repo) 
+
+#git clone branch url
+git clone -b branch_name remoteurl 
