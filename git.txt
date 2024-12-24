@@ -54,9 +54,13 @@ git remote set-url upstream repourl(forked repo)
 #git clone branch url
 git clone -b branch_name remoteurl 
 
-#git switch from main-branch to sub-branch and pull the branc data
+#git switch from main-branch to sub-branch and pull the branch data
 git branch --all (shows the list of branches)
 git fetch (if not found your branch,use this to fetch the branches)
 git checkout -b branch_name
 git switch branch_name 
 git pull origin branch_name (fetch branch data to the window)
+
+#check diff b/w 2 branches
+git show-ref  // shows branches with refId
+git diff branchRefId branch2RefId
